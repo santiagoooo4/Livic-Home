@@ -17,8 +17,25 @@ body {
     --colorprimary: #50748a ;
     --colorsecundario: #3b5565;
     --colorcard: #e1e1e12b ;
+    --font-size-grande: 1.6em;
+    --font-size-medio: 1.1em;
+    --font-size-peque: 1em;
+
     
 }
+.font-size-peque
+{
+    font-size: var(--font-size-peque);
+}
+.font-size-medio
+{
+    font-size: var(--font-size-medio);    
+}
+.font-size-grande {
+    font-size: var(--font-size-grande);    
+}
+    
+
 
 .containerinfo{
     position: relative;
@@ -49,6 +66,7 @@ body {
     display: grid; 
     backdrop-filter: blur(2px);
     z-index: 100;
+    box-shadow: 0px 0px 25px var(--colorsecundario);
 }
 .flex {
     display: flex;
@@ -132,9 +150,9 @@ a {
     justify-content: center;
     text-align: center;
     border-radius: 15px;
-
+    font-size: var(--font-size-medio);
     border-color: 10px aliceblue;
-    box-shadow: 9px 9px 15px #3b55656c;
+    box-shadow: 0px 0px 25px #3b55657f;
 }
 
 
