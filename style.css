@@ -50,13 +50,21 @@ body {
     backdrop-filter: blur(2px);
     z-index: 100;
 }
-.flex-social {
+.flex {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     height: 50%;
     justify-content: center;
 }
+.place
+{
+    grid-template-columns: auto auto;
+}
+.grid {
+     display: grid; 
+}
+
 .icon-social {
     width: 80px;
     transform: scale(80%);
@@ -66,12 +74,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75%;    
+    height: 210px;    
     clip-path: circle();
 }
 .img-profile {
     display: grid;
-    width: 450px;
+    width: 260px;
+    left: 105px;
 }
 
 .profile-tag{
@@ -96,7 +105,10 @@ a {
 .social {
     display: inline;
     margin: 5px;
-    filter: invert(43%) sepia(31%) saturate(478%) hue-rotate(159deg) brightness(92%) contrast(88%);    
+        
+}
+.filter-color {
+    filter: invert(43%) sepia(31%) saturate(478%) hue-rotate(159deg) brightness(92%) contrast(88%);
 }
 .card 
 {
